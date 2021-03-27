@@ -1,0 +1,21 @@
+
+<!-- circular：设置轮播循环播放  
+   autoplay：设置轮播自动滚动   
+   interval：轮播秒数 
+    duration：右边到左边的快慢
+    indicator-dots:小圆点
+  indicator-active-color：圆点active后的颜色-->
+  <swiper class="swiper" 
+circular
+autoplay
+interval="2500"
+duration="1000"
+indicator-dots
+indicator-active-color='#ff5777'>
+  <block wx:for="{{list}}" wx:key="{{index}}">
+    <swiper-item class="swiper-item">
+      <!-- mode="widthFix" 变成正常图片 -->
+      <image src="{{item.image}}" mode="widthFix"/>
+    </swiper-item>
+  </block>
+</swiper>
