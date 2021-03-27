@@ -3,7 +3,9 @@
     "pages/home/home",
     "pages/cart/cart",
     "pages/profile/profile",
-    "pages/categor/categor"
+    "pages/categor/categor",
+    "components/w-swiperr/w-swiper",
+    "pages/home/childCpns/w-recommend/w-recommend"
   ],
   "tabBar": {
     "selectedColor": "#ff5777",
@@ -26,14 +28,12 @@
         "iconPath": "/assets/images/tabbar/cart.png",
         "selectedIconPath": "/assets/images/tabbar/cart_active.png"
       },
-
       {
         "pagePath": "pages/profile/profile",
         "text": "我的",
         "iconPath": "/assets/images/tabbar/profile.png",
         "selectedIconPath": "/assets/images/tabbar/profile_active.png"
       }
-  
     ]
   },
   "window": {
